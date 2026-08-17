@@ -1,0 +1,1 @@
+//api -> Application Programming Interface .connection with other application like server,db,other website ,app etc
