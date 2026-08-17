@@ -18,3 +18,21 @@ console.log(stringified); //json
 
 */
 
+const shop = {
+    owner:'Ensaf',
+    address:{
+        street:"framgate road",
+        country:"bangladesh",
+        road:"432 green road"
+    },
+    products:['laptop','mac','computer'],
+    revenue: 500000,
+    isOpen:true,
+    isNew:false
+};
+
+console.log("normal object print: \n\n",shop);
+
+const shopJson=JSON.stringify(shop);
+console.log("json object print convert into json string: \n\n",shopJson);
+console.log(typeof shopJson);
