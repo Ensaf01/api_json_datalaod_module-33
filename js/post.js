@@ -13,7 +13,7 @@ function displayPost(posts){
         DivPost.innerHTML= `
         <h3> user-Id: ${post.userId} </h3>
         <h4> post: ${post.title}</h4>
-        <p> post description: ${post.body}
+        <p> post description: $ {post.body}
         `;
         postContainer.appendChild(DivPost);
     }
